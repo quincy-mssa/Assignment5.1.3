@@ -9,7 +9,7 @@ namespace Assignment5._1._3
     {
         static void Main(string[] args)
         {
-            Console.Write("Enter array elements: ");
+            Console.Write("Enter array elements separated by spaces: ");
             string input = Console.ReadLine();
             int[] nums = Array.ConvertAll(input.Split(), int.Parse);
 
